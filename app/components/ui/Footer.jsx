@@ -146,21 +146,15 @@ const Footer = () => {
        <p className="text-xs sm:text-sm text-gray-400">
         © {currentYear} YAZICI TİCARET. Tüm hakları saklıdır.
        </p>
-       <p className="text-xs sm:text-sm text-gray-400 flex items-center gap-2">
-        Site tasarımı ve geliştirme:{" "}
+       <p className="text-xs sm:text-sm text-gray-400">
+        Site yapımı:{" "}
         <Link
-         href="https://www.omerhalisdemir.com.tr/"
+         href="https://www.veltstack.com"
          target="_blank"
          rel="noopener noreferrer"
-         className="text-indigo-400 font-semibold hover:text-indigo-300 transition inline-flex items-center gap-1.5"
+         className="text-indigo-400 font-semibold hover:text-indigo-300 transition"
         >
-         <Image
-          src="/OHD-favicon.svg"
-          alt="OHD Logo"
-          width={21}
-          height={21}
-          className="object-contain"
-         />
+         Veltstack
         </Link>
        </p>
       </div>
